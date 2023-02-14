@@ -1,0 +1,24 @@
+body{
+    background-color: #21172d;
+    color:white ;
+    margin-left: 250px;
+}
+.button{
+    background-color: #21172d;
+    color: white;
+    border-radius: 2px;
+    border-color: white;
+    transition: .5s;
+    margin-left:70px;
+}
+.att{
+    color: rgb(209, 209, 209);
+}
+.card-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.button:hover{
+    background-color:rgb(75, 28, 128) ;
+}
